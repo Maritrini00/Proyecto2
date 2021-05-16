@@ -3,7 +3,7 @@ const fs = require('fs');
 
 http.createServer((request,response)=>{
     console.log(request.url);
-    const file =request.url =='/' ? './www/index.html': `./www${request.url}`;
+    const file =request.url =='/' ? './WWW/index.html': `./WWW${request.url}`;
 
     if(request.url=='/login'){
         let data =[];
