@@ -1,0 +1,25 @@
+* {box-sizing:border-box}
+
+#titulo-principal {
+    text-align: center;
+    color: darkgreen;
+}
+
+#subtitulo {
+    text-align: center;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
