@@ -1,7 +1,9 @@
 # Proyecto del Segundo Parcial
 ## Equipo Las Bichotas
 329630 Luis Humberto Izquierdo Morán
+
 329830 Axel Rivas Gullen
+
 329675 Maritrini Velázquez Ruiz
 
 ## Funcionamiento
