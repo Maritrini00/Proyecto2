@@ -2,7 +2,7 @@
 ## Equipo Las Bichotas
 329630 Luis Humberto Izquierdo Morán
 
-329830 Axel Rivas Gullen
+329830 Axel Rivas Guillen
 
 329675 Maritrini Velázquez Ruiz
 
