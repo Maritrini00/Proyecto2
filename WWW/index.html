@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="car.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Automax</title>
 </head>
 <body>
@@ -55,70 +56,72 @@
 
     <hr>
     
+    <h2>¿Te interesa? llena este formulario:)</h2>
+
     <div>
         <form method="POST" action="/form">
-            <label for="">¿Quién lo quiere rentar?</label>
-            <input type="text" required>
+            <label for="name">¿Quién lo quiere rentar?</label>
+            <input type="text" name="name" required>
 
             <br>
             
             <label for="email">Correo electrónico</label>
-            <input id="email" type="email" required>
+            <input id="email" type="email" name="email" required>
 
             <br>
 
             <label for="">Teléfono</label>
-            <input type="tel" required>
+            <input type="tel" name="phone" required>
 
             <br>
 
             <label for="">Fecha de recogida</label>
-            <input type="date" name="" id="" required>
+            <input type="date" name="date1" id="" required>
 
             <br>
 
             <label for="">Fecha de entrega</label>
-            <input type="date" name="" id="" required>
+            <input type="date" name="date2" id="" required>
 
             <br>
 
             <label for="">Auto a rentar</label>
-            <select name="select" id="" required>
+            <select name="car" id="" required>
                 <option value="">Seleccionar</option>
-                <option value="">Toyota-Corolla 2020</option>
-                <option value="">Volkswagen-Jetta 2019</option>
-                <option value="">Nissan-Sentra 2021</option>
-                <option value="">Honda-Civic 2021</option>
-                <option value="">Mazda-Mazda3 2019</option>
-                <option value="">Audi-Q8 2020</option>
-                <option value="">Nissan-Kicks 2019</option>
-                <option value="">Toyota-Rav4 Hybrid 2021</option>
-                <option value="">Nissan-X-Trail 2021</option>
-                <option value="">Kia-Rio Hatchback 2021</option>
-                <option value="">Suzuki-Swift 2020</option>
-                <option value="">Ford-Escape 2019</option>
-                <option value="">Ford-Lobo 2020</option>
-                <option value="">Chevrolet-Cheyenne 2019</option>
-                <option value="">Suzuki-Jimmy 2021</option>
-                <option value="">Ford-Fiesta 2019</option>
-                <option value="">Nissan-Altima 2021</option>
-                <option value="">Honda-Accord 2019</option>
-                <option value="">Toyota-Camry 2019</option>
-                <option value="">Toyota-Yaris 2019</option>
-                <option value="">Ford-Figo 2020</option>
-                <option value="">BMW-X5 2021</option>
-                <option value="">Volkswagen-Virtus 2019</option>
-                <option value="">Tesla-ModeloX 2020</option>
-                <option value="">Toyota-Prius Hybrid 2021</option>
+                <option value="Toyota-Corolla 2020">Toyota-Corolla 2020</option>
+                <option value="Volkswagen-Jetta 2019">Volkswagen-Jetta 2019</option>
+                <option value="Nissan-Sentra 2021">Nissan-Sentra 2021</option>
+                <option value="Honda-Civic 2021">Honda-Civic 2021</option>
+                <option value="Mazda-Mazda3 2019">Mazda-Mazda3 2019</option>
+                <option value="Audi-Q8 2020">Audi-Q8 2020</option>
+                <option value="Nissan-Kicks 2019">Nissan-Kicks 2019</option>
+                <option value="Toyota-Rav4 Hybrid 2021">Toyota-Rav4 Hybrid 2021</option>
+                <option value="Nissan-X-Trail 2021">Nissan-X-Trail 2021</option>
+                <option value="Kia-Rio Hatchback 2021">Kia-Rio Hatchback 2021</option>
+                <option value="Suzuki-Swift 2020">Suzuki-Swift 2020</option>
+                <option value="Ford-Escape 2019">Ford-Escape 2019</option>
+                <option value="Ford-Lobo 2020">Ford-Lobo 2020</option>
+                <option value="Chevrolet-Cheyenne 2019">Chevrolet-Cheyenne 2019</option>
+                <option value="Suzuki-Jimmy 2021">Suzuki-Jimmy 2021</option>
+                <option value="Ford-Fiesta 2019">Ford-Fiesta 2019</option>
+                <option value="Nissan-Altima 2021">Nissan-Altima 2021</option>
+                <option value="Honda-Accord 2019">Honda-Accord 2019</option>
+                <option value="Toyota-Camry 2019">Toyota-Camry 2019</option>
+                <option value="Toyota-Yaris 2019">Toyota-Yaris 2019</option>
+                <option value="Ford-Figo 2020">Ford-Figo 2020</option>
+                <option value="BMW-X5 2021">BMW-X5 2021</option>
+                <option value="Volkswagen-Virtus 2019">Volkswagen-Virtus 2019</option>
+                <option value="Tesla-ModeloX 2020">Tesla-ModeloX 2020</option>
+                <option value="Toyota-Prius Hybrid 2021">Toyota-Prius Hybrid 2021</option>
             </select>
 
             <br>
 
             <label>Transmisión</label>
-            <select name="select" id="" required>
+            <select name="transmission" id="" required>
                 <option value="">Seleccionar</option>
-                <option value="">Manual</option>
-                <option value="">Automático</option>
+                <option value="manual">Manual</option>
+                <option value="automatic">Automático</option>
             </select>
 
             <br>
