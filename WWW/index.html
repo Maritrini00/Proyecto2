@@ -15,52 +15,52 @@
     <a id= "contact" href="contact.html">Contacto</a>
     <a id= "about" href="about.html">Acerca de</a>
     <a id= "details" href="details.html">Detalles</a>
-
+    
+    <br>
+    <br>
     <hr>
     
     <div class ="slideshow-container">
         <div class="display-container">
             <button class="button" onclick="plusDivs(-1)">&#10094;</button>
             <button class="button" onclick="plusDivs(1)">&#10095;</button>
-            <img class="mySlides" src="./img/corolla.jpg" style="height: 400px;">
-            <img class="mySlides" src="./img/jetta.jpg" style="height: 400px;">
-            <img class="mySlides" src="./img/sentra.png" style="height: 400px;">
-            <img class="mySlides" src="./img/rav4.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/civic.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/mazda3.png" style="height: 400px;"> 
-            <img class="mySlides" src="./img/audiq5.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/kicks.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/xtrail.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/kicks.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/rio.png" style="height: 400px;"> 
-            <img class="mySlides" src="./img/swift.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/escape.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/lobo.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/ch.webp" style="height: 400px;"> 
-            <img class="mySlides" src="./img/kicks.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/kicks.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/kicks.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/jimmy.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/fiesta.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/altima.webp" style="height: 400px;"> 
-            <img class="mySlides" src="./img/accord.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/camry.png" style="height: 400px;"> 
-            <img class="mySlides" src="./img/yaris.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/figo.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/x5.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/virtus.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/tesla.jpg" style="height: 400px;"> 
-            <img class="mySlides" src="./img/prius.jpg" style="height: 400px;"> 
+            <img class="mySlides" src="./img/corolla.jpg">
+            <img class="mySlides" src="./img/jetta.jpg">
+            <img class="mySlides" src="./img/sentra.png">
+            <img class="mySlides" src="./img/rav4.jpg"> 
+            <img class="mySlides" src="./img/civic.jpg"> 
+            <img class="mySlides" src="./img/mazda3.png"> 
+            <img class="mySlides" src="./img/audiq5.jpg"> 
+            <img class="mySlides" src="./img/kicks.jpg"> 
+            <img class="mySlides" src="./img/xtrail.jpg"> 
+            <img class="mySlides" src="./img/kicks.jpg"> 
+            <img class="mySlides" src="./img/rio.png"> 
+            <img class="mySlides" src="./img/swift.jpg"> 
+            <img class="mySlides" src="./img/escape.jpg"> 
+            <img class="mySlides" src="./img/lobo.jpg"> 
+            <img class="mySlides" src="./img/ch.webp"> 
+            <img class="mySlides" src="./img/kicks.jpg"> 
+            <img class="mySlides" src="./img/kicks.jpg"> 
+            <img class="mySlides" src="./img/kicks.jpg"> 
+            <img class="mySlides" src="./img/jimmy.jpg"> 
+            <img class="mySlides" src="./img/fiesta.jpg"> 
+            <img class="mySlides" src="./img/altima.webp"> 
+            <img class="mySlides" src="./img/accord.jpg"> 
+            <img class="mySlides" src="./img/camry.png"> 
+            <img class="mySlides" src="./img/yaris.jpg"> 
+            <img class="mySlides" src="./img/figo.jpg"> 
+            <img class="mySlides" src="./img/x5.jpg"> 
+            <img class="mySlides" src="./img/virtus.jpg"> 
+            <img class="mySlides" src="./img/tesla.jpg"> 
+            <img class="mySlides" src="./img/prius.jpg"> 
           </div>
     </div>
-
-    <hr>
     
     <h2>¿Te interesa? llena este formulario:)</h2>
 
     <div>
         <form method="POST" action="/form">
-            <label for="name">¿Quién lo quiere rentar?</label>
+            <label for="name">Nombre</label>
             <input type="text" name="name" required>
 
             <br>
@@ -83,6 +83,7 @@
             <label for="">Fecha de entrega</label>
             <input type="date" name="date2" id="" required>
 
+            <br>
             <br>
 
             <label for="">Auto a rentar</label>
@@ -116,6 +117,7 @@
             </select>
 
             <br>
+            <br>
 
             <label>Transmisión</label>
             <select name="transmission" id="" required>
@@ -124,9 +126,7 @@
                 <option value="automatic">Automático</option>
             </select>
 
-            <br>
-
-            <input type="submit" value="Enviar">
+            <input class="button" type="submit" value="Enviar">
         </form>
     </div>
 
