@@ -1,0 +1,135 @@
+<!-- Landind page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="car.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Automax</title>
+</head>
+<body>
+    <h1 id="titulo-principal">TOROMAX</h1>
+    <h2 id="subtitulo">RENTA DE AUTOS EN CHIHUAHUA</h2>
+    <a id= "contact" href="contact.html">Contacto</a>
+    <a id= "about" href="about.html">Acerca de</a>
+    <a id= "details" href="details.html">Detalles</a>
+    
+    <br>
+    <br>
+    <hr>
+    
+    <div class ="slideshow-container">
+        <div class="display-container">
+            <button class="button" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="button" onclick="plusDivs(1)">&#10095;</button>
+            <img class="mySlides" src="./img/corolla.jpg">
+            <img class="mySlides" src="./img/jetta.jpg">
+            <img class="mySlides" src="./img/sentra.png">
+            <img class="mySlides" src="./img/rav4.jpg"> 
+            <img class="mySlides" src="./img/civic.jpg"> 
+            <img class="mySlides" src="./img/mazda3.png"> 
+            <img class="mySlides" src="./img/audiq5.jpg"> 
+            <img class="mySlides" src="./img/kicks.jpg"> 
+            <img class="mySlides" src="./img/xtrail.jpg"> 
+            <img class="mySlides" src="./img/kicks.jpg"> 
+            <img class="mySlides" src="./img/rio.png"> 
+            <img class="mySlides" src="./img/swift.jpg"> 
+            <img class="mySlides" src="./img/escape.jpg"> 
+            <img class="mySlides" src="./img/lobo.jpg"> 
+            <img class="mySlides" src="./img/ch.webp"> 
+            <img class="mySlides" src="./img/kicks.jpg"> 
+            <img class="mySlides" src="./img/kicks.jpg"> 
+            <img class="mySlides" src="./img/kicks.jpg"> 
+            <img class="mySlides" src="./img/jimmy.jpg"> 
+            <img class="mySlides" src="./img/fiesta.jpg"> 
+            <img class="mySlides" src="./img/altima.webp"> 
+            <img class="mySlides" src="./img/accord.jpg"> 
+            <img class="mySlides" src="./img/camry.png"> 
+            <img class="mySlides" src="./img/yaris.jpg"> 
+            <img class="mySlides" src="./img/figo.jpg"> 
+            <img class="mySlides" src="./img/x5.jpg"> 
+            <img class="mySlides" src="./img/virtus.jpg"> 
+            <img class="mySlides" src="./img/tesla.jpg"> 
+            <img class="mySlides" src="./img/prius.jpg"> 
+          </div>
+    </div>
+    
+    <h2>¿Te interesa? llena este formulario:)</h2>
+
+    <div>
+        <form method="POST" action="/form">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" required>
+
+            <br>
+            
+            <label for="email">Correo electrónico</label>
+            <input id="email" type="email" name="email" required>
+
+            <br>
+
+            <label for="">Teléfono</label>
+            <input type="tel" name="phone" required>
+
+            <br>
+
+            <label for="">Fecha de recogida</label>
+            <input type="date" name="date1" id="" required>
+
+            <br>
+
+            <label for="">Fecha de entrega</label>
+            <input type="date" name="date2" id="" required>
+
+            <br>
+            <br>
+
+            <label for="">Auto a rentar</label>
+            <select name="car" id="" required>
+                <option value="">Seleccionar</option>
+                <option value="Toyota-Corolla 2020">Toyota-Corolla 2020</option>
+                <option value="Volkswagen-Jetta 2019">Volkswagen-Jetta 2019</option>
+                <option value="Nissan-Sentra 2021">Nissan-Sentra 2021</option>
+                <option value="Honda-Civic 2021">Honda-Civic 2021</option>
+                <option value="Mazda-Mazda3 2019">Mazda-Mazda3 2019</option>
+                <option value="Audi-Q8 2020">Audi-Q8 2020</option>
+                <option value="Nissan-Kicks 2019">Nissan-Kicks 2019</option>
+                <option value="Toyota-Rav4 Hybrid 2021">Toyota-Rav4 Hybrid 2021</option>
+                <option value="Nissan-X-Trail 2021">Nissan-X-Trail 2021</option>
+                <option value="Kia-Rio Hatchback 2021">Kia-Rio Hatchback 2021</option>
+                <option value="Suzuki-Swift 2020">Suzuki-Swift 2020</option>
+                <option value="Ford-Escape 2019">Ford-Escape 2019</option>
+                <option value="Ford-Lobo 2020">Ford-Lobo 2020</option>
+                <option value="Chevrolet-Cheyenne 2019">Chevrolet-Cheyenne 2019</option>
+                <option value="Suzuki-Jimmy 2021">Suzuki-Jimmy 2021</option>
+                <option value="Ford-Fiesta 2019">Ford-Fiesta 2019</option>
+                <option value="Nissan-Altima 2021">Nissan-Altima 2021</option>
+                <option value="Honda-Accord 2019">Honda-Accord 2019</option>
+                <option value="Toyota-Camry 2019">Toyota-Camry 2019</option>
+                <option value="Toyota-Yaris 2019">Toyota-Yaris 2019</option>
+                <option value="Ford-Figo 2020">Ford-Figo 2020</option>
+                <option value="BMW-X5 2021">BMW-X5 2021</option>
+                <option value="Volkswagen-Virtus 2019">Volkswagen-Virtus 2019</option>
+                <option value="Tesla-ModeloX 2020">Tesla-ModeloX 2020</option>
+                <option value="Toyota-Prius Hybrid 2021">Toyota-Prius Hybrid 2021</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label>Transmisión</label>
+            <select name="transmission" id="" required>
+                <option value="">Seleccionar</option>
+                <option value="manual">Manual</option>
+                <option value="automatic">Automático</option>
+            </select>
+
+            <input class="button" type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
